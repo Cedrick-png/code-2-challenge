@@ -1,0 +1,38 @@
+.bot-collection, .your-bot-army {
+  margin: 20px;
+  padding: 10px;
+}
+
+.bot-collection-container, .bot-army-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.bot-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.bot-card:hover {
+  transform: scale(1.05);
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
